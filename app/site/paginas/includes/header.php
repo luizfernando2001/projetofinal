@@ -8,7 +8,7 @@
 
     <title>Projeto Final</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="app/assets/bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="app/assets/bootstrap/css/bootstrap.css"> 
     <!-- Outros -->
     <link rel="stylesheet" href="">
     <!-- Icomoon -->
@@ -19,6 +19,8 @@
 <body>
     
 <!-- Header -->
+<header>
 <div class="container">
     <img src="app/assets/img/foto.gif" alt="">
 </div>
+</header>

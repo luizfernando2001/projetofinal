@@ -1,4 +1,4 @@
-<div class="container-fluid table-secondary py-4 ">
+<div class="container-fluid table-secondary py-2 ">
 <footer class="container text-center">
     <img src="app/assets/img/logo.png" alt="">
 </footer>
@@ -12,6 +12,6 @@
 
 </body>
 <script src="app/assets/bootstrap/js/jquery.js"></script>
-<script src="app/assets/bootstrap/css/bootstrap.min.css"></script>
+<script src="app/assets/bootstrap/css/bootstrap.css"></script>
 <script src="app/assets/bootstrap/js/meujs.js"></script>
 </html>
