@@ -24,7 +24,11 @@ if ($paginas) {
         case 'contato':
             include_once "app/site/paginas/contato.php";
             break;
-        
+            
+            case 'validalogin':
+                include_once "app/site/paginas/validalogin.php";
+                break;
+
         default:
         include_once "app/site/paginas/inicial.php";
             break;
