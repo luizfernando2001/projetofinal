@@ -3,7 +3,7 @@
         <img src="app/assets/img/logo.png" alt="">
     </footer>
     <div class="container">
-        <p class="text-center text-primary pt-3 ">
+        <p class="text-center text-primary pt-2 ">
             Todos os direitos reservados &copy;2020.
         </p>
     </div>

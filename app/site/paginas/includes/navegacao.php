@@ -1,4 +1,4 @@
-<div class="container-fluid navega">
+<div class="container-fluid navega mb-1">
   <div class="container">
     <nav class="navbar  navbar-expand-lg navbar-danger">
       <a class="navbar-brand" href="#"><img src="app/assets/img/logo2.png" alt=""></a>
@@ -9,9 +9,9 @@
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav mr-auto">
 
-          <li class="nav-item active"><a class="botao nav-link <?php echo (($_GET ['pg'] == 'inicial') ? 'btn py-2 btn-outline-primary' : ''); ?>" href="?pg=inicial">Inicial <span class="sr-only">(pagina atual)</span></a></li>
-          <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'produtos') ? 'btn py-2 btn-outline-primary' : ''); ?>" href="?pg=produtos">Produtos <span class="sr-only">(pagina atual)</span></a></li>
-          <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'contato') ? 'btn py-2 btn-outline-primary' : ''); ?>" href="?pg=contato">Contato <span class="sr-only">(pagina atual)</span></a></li>
+          <li class="nav-item active"><a class="botao nav-link <?php echo (($_GET ['pg'] == 'inicial') ? 'btn py-2 btn-primary' : ''); ?>" href="?pg=inicial">Inicial <span class="sr-only">(pagina atual)</span></a></li>
+          <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'produtos') ? 'btn py-2 btn-primary' : ''); ?>" href="?pg=produtos">Produtos <span class="sr-only">(pagina atual)</span></a></li>
+          <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'contato') ? 'btn py-2 btn-primary' : ''); ?>" href="?pg=contato">Contato <span class="sr-only">(pagina atual)</span></a></li>
 
         </ul>
 
@@ -21,7 +21,7 @@
               <span class="botao2 icon-user"></span>
             </a>
             <div class="botao dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="botao3 dropdown-item text-danger" href="#"><span class="icon-exit botao3 "></span> Sair</a>
+              <a class="botao3 dropdown-item text-danger" href="#"><span class="icon-exit botao3 "></span>Sair</a>
             </div>
           </li>
         </ul>

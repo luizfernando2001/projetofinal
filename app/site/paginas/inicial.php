@@ -1,5 +1,5 @@
-<div class="container jumbotron mb-1">
-<div class="display-4">
+<div class="container jumbotron mb-1 luiz">
+<div class="display-4 text-light">
 inicial
 </div>
 </div>
