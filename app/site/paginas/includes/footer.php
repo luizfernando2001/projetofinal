@@ -1,17 +1,21 @@
-<div class="container-fluid table-secondary py-2 ">
-<footer class="container text-center">
-    <img src="app/assets/img/logo.png" alt="">
-</footer>
-<div class="container ">
-    <p class="text-center">
-        Todos Direitos Reservados &copy;2020.
-    </p>
+<div class="container-fluid  pt-2 fim">
+    <footer class="container text-center ">
+        <img src="app/assets/img/logo.png" alt="">
+    </footer>
+    <div class="container">
+        <p class="text-center text-primary pt-3 ">
+            Todos os direitos reservados &copy;2020.
+        </p>
+    </div>
 </div>
-</div>
-<!-- fim rodapé -->
 
+
+
+<!-- jQuery -->
+<script src="app/assets/js/jquery.js"></script>
+<!-- Bootstrap -->
+<script src="app/assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- Funções Javascript -->
+<script src="app/assets/js/meujs.js"></script>
 </body>
-<script src="app/assets/bootstrap/js/jquery.js"></script>
-<script src="app/assets/bootstrap/css/bootstrap.css"></script>
-<script src="app/assets/bootstrap/js/meujs.js"></script>
 </html>
