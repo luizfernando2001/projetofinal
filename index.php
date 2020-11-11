@@ -4,7 +4,7 @@ include_once "app/site/paginas/includes/header.php";
 //Navegaçao 
 include_once "app/site/paginas/includes/navegacao.php";
 
-echo "<hr>";
+
 
 // Páginas do meu Site 
 
@@ -32,6 +32,6 @@ if ($paginas) {
 } else {
     include_once "app/site/paginas/inicial.php";
 }
-echo'<hr>';
-// Rodapé
+
+//Rodape
 include_once "app/site/paginas/includes/footer.php";

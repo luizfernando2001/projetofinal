@@ -1,3 +1,30 @@
-body{background-image: url(../img/ggg.jpg);}
-.fim{ background-color: rgba(0, 0, 0, 0.473);}
-.navega{  background-color: rgba(0, 0, 0, 0.473);}
+body {
+    background-image: url(../img/ggg.jpg);
+}
+
+.fim {
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.navega {
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.botao {
+    border-style: double;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: rgba(6, 60, 161, 0.575);
+}
+
+.botao2 {
+    border-style: double;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: rgba(6, 60, 161, 0.575);
+    padding: 9px;
+}
+
+.dropdown-item :hover {
+    background-color: rgba(0, 0, 139, 0.39);
+}
