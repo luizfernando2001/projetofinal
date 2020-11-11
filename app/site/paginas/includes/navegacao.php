@@ -9,9 +9,9 @@
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav mr-auto">
 
-          <li class="nav-item active"><a class="botao nav-link btn-info" href="?pg=inicial">Inicial <span class="sr-only">(pagina atual)</span></a></li>
-          <li class="nav-item active"><a class="botao nav-link btn-info" href="?pg=produtos">Produtos <span class="sr-only">(pagina atual)</span></a></li>
-          <li class="nav-item active"><a class="botao nav-link btn-info" href="?pg=contato">Contato <span class="sr-only">(pagina atual)</span></a></li>
+          <li class="nav-item active"><a class="botao nav-link <?php echo (($_GET ['pg'] == 'inicial') ? 'btn py-2 btn-outline-primary' : ''); ?>" href="?pg=inicial">Inicial <span class="sr-only">(pagina atual)</span></a></li>
+          <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'produtos') ? 'btn py-2 btn-outline-primary' : ''); ?>" href="?pg=produtos">Produtos <span class="sr-only">(pagina atual)</span></a></li>
+          <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'contato') ? 'btn py-2 btn-outline-primary' : ''); ?>" href="?pg=contato">Contato <span class="sr-only">(pagina atual)</span></a></li>
 
         </ul>
 
