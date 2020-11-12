@@ -14,8 +14,9 @@
           <li class="nav-item active"><a class="botao nav-link  <?php echo (($_GET ['pg'] == 'contato') ? 'btn py-2 btn-primary' : ''); ?>" href="?pg=contato">Contato <span class="sr-only">(pagina atual)</span></a></li>
 
         </ul>
-
-        <ul class="navbar-nav">
+<?php  
+if (isset($_SESSION[''])) {?>
+<ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="botao2 icon-user"></span>
@@ -25,6 +26,23 @@
             </div>
           </li>
         </ul>
+<?php
+}else{?>
+<ul class="navbar-nav">
+          <li class="nav-item dropdown">
+          <button type="button" class="btn btn-success" href="cpanel.php?pg=cpanel">Success</button>
+            <div class="botao dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="botao3 dropdown-item text-danger" href="cpanel.php?pg=cpanel"><span class="icon-exit botao3 "></span>Sair</a>
+            </div>
+          </li>
+        </ul>
+        <?php
+}
+?>
+
+        
+
+        
       </div>
     </nav>
   </div>

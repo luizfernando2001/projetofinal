@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="app/painelAdm/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="app/painelAdm/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="app/painelAdm/dist/css/admcss.css">
 </head>
 
 <body class="hold-transition login-page">
@@ -52,30 +53,25 @@
               </label>
                             </div>
                         </div>
-                        <!-- /.col -->
-                        <div class="col-4">
-                            <button type="submit" class="btn btn-primary btn-block">Logar</button>
-                        </div>
-                        <!-- /.col -->
+                
                     </div>
+
+<div class="social-auth-links text-center mb-3">
+                   
+                    <button type="submit" class="btn btn-primary btn-block">Logar</button>
+                   
+                </div>
+
                 </form>
 
-                <div class="social-auth-links text-center mb-3">
-                    <p>- OU -</p>
-                    <a href="#" class="btn btn-block btn-primary">
-                        <i class="fab fa-facebook mr-2"></i> Logar usando Facebook
-                    </a>
-                    <a href="#" class="btn btn-block btn-danger">
-                        <i class="fab fa-google-plus mr-2"></i> Logar usando Google+
-                    </a>
-                </div>
+                
                 <!-- /.social-auth-links -->
 
                 <p class="mb-1">
-                    <a href="forgot-password.html">Esqueci minha senha</a>
+               
                 </p>
                 <p class="mb-0">
-                    <a href="register.html" class="text-center">Registrar como novo usuario</a>
+                   
                 </p>
             </div>
             <!-- /.login-card-body -->
