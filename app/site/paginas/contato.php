@@ -16,8 +16,8 @@
       <input type="email"  name="email" class="form-control" id="inputEmail4" placeholder="Digite seu E-mail">
     </div>
     <div class="form-group text-light">
-    <label for="exampleFormControlTextarea1">Digite sua mensagem</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Digite sua mensagem" rows="5"></textarea>
+    <label for="exampleFormControlTextarea1"> mensagem</label>
+    <textarea class="form-control" name="mensagem" id="exampleFormControlTextarea1"  placeholder="Digite sua mensagem" rows="5"></textarea>
   </div>
   <div class="text-center">
   <button type="submit" class="btn btn-primary btn-lg btn-block" > Enviar<span class="icon-cheveron-right"></span> </button>
