@@ -1,7 +1,7 @@
 <div class="container-fluid navega mb-1">
   <div class="container">
     <nav class="navbar  navbar-expand-lg navbar-danger">
-      <a class="navbar-brand" href="#"><img src="app/assets/img/logo2.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="app/assets/img/logo2.png" class="img-fluid" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="icon-add-solid alert-secondary"></span>
       </button>
@@ -29,11 +29,11 @@ if (isset($_SESSION[''])) {?>
 <?php
 }else{?>
 <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-          <button type="button" class="btn btn-success" href="cpanel.php?pg=cpanel">Success</button>
-            <div class="botao dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="botao3 dropdown-item text-danger" href="cpanel.php?pg=cpanel"><span class="icon-exit botao3 "></span>Sair</a>
-            </div>
+          <li class="vav-item active">
+         
+           
+              <a class="nav-link btn btn-outline-secondary" href="cpanel.php?pg=cpanel">ADM</a>
+           
           </li>
         </ul>
         <?php
