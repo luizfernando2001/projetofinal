@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="app/painelAdm/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="app/painelAdm/dist/css/adminlte.min.css">
-    <link rel="stylesheet" href="app/painelAdm/dist/css/admcss.css">
+    <link rel="stylesheet" href="app/assets/css/meucss.css">
 </head>
 
 <body class="hold-transition login-page">
@@ -27,9 +27,9 @@
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Logar para iniciar </p>
 
-                <form action="../../index3.html" method="post">
+                <form action="cpanel.php?pg=cpanel" method="post">
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Email">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -59,7 +59,7 @@
 <div class="social-auth-links text-center mb-3">
                    
                     <button type="submit" class="btn btn-primary btn-block">Logar</button>
-                   
+                   <a href="index.php?pg=inicial" class="btn btn-success btn-block">Voltar</a>
                 </div>
 
                 </form>

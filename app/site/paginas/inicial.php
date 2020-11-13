@@ -123,8 +123,8 @@
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:240px;width:720px;height:480px;overflow:hidden;">
             <div>
-                <img data-u="image" src="app/assets/img/img/004-s99x66.jpg" />
-                <img data-u="thumb" src="app/assets/img/img/004-s99x66.jpg" />
+                <img data-u="image" src="app/assets/img/img/004.jpg" />
+                <img data-u="thumb" src="app/assets/img/img/004.jpg" />
             </div>
             <div>
                 <img data-u="image" src="app/assets/img/img/005.jpg" />
